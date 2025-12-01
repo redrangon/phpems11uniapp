@@ -1,0 +1,485 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "PHPEMS模拟考试系统",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/content/index",
+			"style": {
+				"navigationBarTitleText": "新闻资讯",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/content/category",
+			"style": {
+				"navigationBarTitleText": "内容列表",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/content/content",
+			"style": {
+				"navigationBarTitleText": "内容详情",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/user/bindaccount",
+			"style": {
+				"navigationBarTitleText": "绑定账号",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/user/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/user/findpassword",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/user/payfor",
+			"style": {
+				"navigationBarTitleText": "积分充值",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/user/course",
+			"style": {
+				"navigationBarTitleText": "我的课程",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/user/exam",
+			"style": {
+				"navigationBarTitleText": "我的考场",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/user/certificate",
+			"style": {
+				"navigationBarTitleText": "我的证书",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/user/cedetail",
+			"style": {
+				"navigationBarTitleText": "我的证书详情",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/user/orders",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/user/orderdetail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/user/modifypass",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/index",
+			"style": {
+				"navigationBarTitleText": "考试",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/basic",
+			"style": {
+				"navigationBarTitleText": "开通考场",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/detail",
+			"style": {
+				"navigationBarTitleText": "考场详情",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/examdetail",
+			"style": {
+				"navigationBarTitleText": "正式考场",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/page",
+			"style": {
+				"navigationBarTitleText": "模拟练习",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/lesson",
+			"style": {
+				"navigationBarTitleText": "课后练习",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/lessonpaper",
+			"style": {
+				"navigationBarTitleText": "练习做题",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/recite",
+			"style": {
+				"navigationBarTitleText": "背题模式",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/recitepaper",
+			"style": {
+				"navigationBarTitleText": "背题模式",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/reporterror",
+			"style": {
+				"navigationBarTitleText": "错题反馈",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/exercise",
+			"style": {
+				"navigationBarTitleText": "强化训练",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/exam_paper",
+			"style": {
+				"navigationBarTitleText": "正式考试试卷",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/exampaper",
+			"style": {
+				"navigationBarTitleText": "模拟考试",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏 
+				}
+			}
+		},
+		{
+			"path": "pages/exam/paper",
+			"style": {
+				"navigationBarTitleText": "模拟考试试卷",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/historywrongs",
+			"style": {
+				"navigationBarTitleText": "错题重做",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/historyview",
+			"style": {
+				"navigationBarTitleText": "试卷解析",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/history",
+			"style": {
+				"navigationBarTitleText": "考试记录",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/examhistory",
+			"style": {
+				"navigationBarTitleText": "考试记录",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/history_makescore",
+			"style": {
+				"navigationBarTitleText": "主观题批改",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/history_stats",
+			"style": {
+				"navigationBarTitleText": "考试成绩",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/record",
+			"style": {
+				"navigationBarTitleText": "错题重做",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/recordpapers",
+			"style": {
+				"navigationBarTitleText": "错题组卷",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/exercise_paper",
+			"style": {
+				"navigationBarTitleText": "组卷试卷",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/favor",
+			"style": {
+				"navigationBarTitleText": "试题收藏",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/score",
+			"style": {
+				"navigationBarTitleText": "成绩单",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/questionrows",
+			"style": {
+				"navigationBarTitleText": "题冒题",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/question",
+			"style": {
+				"navigationBarTitleText": "普通试题",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/questiondetail",
+			"style": {
+				"navigationBarTitleText": "试题详情",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/exam/questionchild",
+			"style": {
+				"navigationBarTitleText": "题冒题详情",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/course/index",
+			"style": {
+				"navigationBarTitleText": "课程",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/course/category",
+			"style": {
+				"navigationBarTitleText": "课程分类",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/course/opencourse",
+			"style": {
+				"navigationBarTitleText": "课程开通",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/course/course",
+			"style": {
+				"navigationBarTitleText": "课程学习",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/course/course_pdf",
+			"style": {
+				"navigationBarTitleText": "课程学习"
+			}
+		},
+		{
+			"path": "pages/certificate/index",
+			"style": {
+				"navigationBarTitleText": "证书",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/certificate/apply",
+			"style": {
+				"navigationBarTitleText": "证书申请",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "PHPEMS",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

@@ -3,6 +3,7 @@
 
 # 开发工具
 hbuildx
+需要在插件市场安装uni-ui
 
 # 官方网站
 http://phpems.net
